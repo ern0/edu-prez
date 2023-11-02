@@ -4,9 +4,10 @@
 
 * {
   font-family: "Lucida Grande";
-  background: #fff;
   color: #003;
   font-size: 48pt;
+  margin: 16px;
+  padding: 0 4px 0 4px;
 }
 
 h1 {
@@ -65,8 +66,11 @@ footer {
 
 h2 {
   font-size: 56pt;
-  text-align: left;
+  text-align: center;
   margin: 24px;
+}
+.h2l {
+  text-align: left;
 }
 
 .stopleft {
@@ -74,17 +78,39 @@ h2 {
   z-index: 1;
   position: absolute;
   left: 2%;
-  bottom: 20%;
+  bottom: 10%;
 }
 .stopright {
   width: 25%;
   z-index: 1;
   position: absolute;
   left: 72%;
-  bottom: 20%;
+  bottom: 10%;
 }
 
 ul {
   margin: 24px 24px 24px 128px;
 }
 
+blockquote {
+  font-size: 48px;
+  font-style: italic;
+  background: #eee;
+  margin: 12px;
+  padding: 12px;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #c00;
+  color: #900;
+  background-color: #fec;
+}
+.fr {
+  width: 40%;
+  float: right;
+  margin-right: 75px;
+}
