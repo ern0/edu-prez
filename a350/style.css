@@ -6,6 +6,9 @@
   font-family: "Lucida Grande";
   color: #003;
   font-size: 48pt;
+}
+
+body {
   margin: 16px;
   padding: 0 4px 0 4px;
 }
@@ -60,7 +63,7 @@ footer {
   width: 100%;
   z-index: 99;
   position: absolute;
-  left: 66%;
+  left: 72%;
   bottom: 2%;
 }
 
@@ -90,7 +93,7 @@ h2 {
 
 .sziap {
   position: absolute;
-  top: 22%;
+  top: 25%;
   left: 25%;
 }
 .szia {
@@ -101,7 +104,7 @@ h2 {
 }
 .szia1 {
   font-size: 53px;
-  top: 60%;
+  top: 63%;
   font-weight: bold;
   position: absolute;
   color: #fff;
@@ -113,7 +116,7 @@ h2 {
   color: #666;
   font-weight: bold;
   margin-left: 15%;
-  top: 80%;
+  top: 83%;
 }
 
 ul {
